@@ -16,11 +16,11 @@ animate_text() {
     echo 
 }
 
-animate_text "HaadLC - CTF | Seventh Challenge" 0.06
-animate_text "Squiddy's sweeping in quick." 0.06
+animate_text "HaadLC - CTF | Eighth Challenge" 0.06
+animate_text "Squiddy's sweeping in quick, Shit..!" 0.06
 
 echo -e "\nPrompt:"
-echo -e "You Have a *vicqup.txt* One of The few Human-Readable Strings, I Love This Charecter 3=3=3+1+1, Oh no So Why I'm Using Numbers I will Drop It. And So on When I Found a Password I Immideately Go And Check *shakalabum* And Hope One of Them Will Successed"
+echo -e "Really Now You In Eighth Challenge? | Awesome Execute *jiblajibon* and Paste Your Flag After You Can Get Your Password To Windows, Thank You Bro!!!"
 
 echo -e "\nAccepted Commands That You Must Use:"
-echo -e "**grep, bzip2, base64, tr, tar, gzip, strings, xxd, du**"  
+echo -e "**grep, bzip2, base64, tr, tar, xzf, strings, ffmp, du**"  

@@ -23,7 +23,7 @@ echo -e "\nRead:"
 echo -e "Again ;(, We Have This Directory named *saber* That Contains A Lot Directories With A Lot Of Files, Find File That Contains A Flag!"
 
 echo -e "\nPrompt:"
-echo -e "Immideately I Will Go To Directory 9 Catch My Flag And Going To Another Challenge, But Maybe Flag Contains In That Directory That I reverse 9 - Stop, Stop, Stop!!! The Higher Score In Your School is..."
+echo -e "Immideately I Will Go To Directory 9 Catch My Flag And Going To Another Challenge, But Maybe Flag Contains In That Directory That I reverse 9 - Stop, Stop, Stop You in This Directory Check folder's!!! The Higher Score In Your School is..."
 
 echo -e "\nAccepted Commands That You Must Use:"
 echo -e "**ls | cd | cat**"

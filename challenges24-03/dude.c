@@ -26,6 +26,11 @@ int main() {
                 char content[256];
                 fgets(content, sizeof(content), file);
                 fclose(file);
+                // Remove newline character if present
+                size_t len = strlen(content);
+                if (len > 0 && content[len - 1] == '\n') {
+                    content[len - 1] = '\0';
+                }
                 if (strcmp(content, FILE_CONTENT) == 0) {
                     // Print message if the file exists and contains expected content
                     printf("You have successfully created the directory, file, and written the expected content.\n");
@@ -40,6 +45,11 @@ int main() {
                             char editContent[256];
                             fgets(editContent, sizeof(editContent), editFile);
                             fclose(editFile);
+                            // Remove newline character if present
+                            len = strlen(editContent);
+                            if (len > 0 && editContent[len - 1] == '\n') {
+                                editContent[len - 1] = '\0';
+                            }
                             if (strcmp(editContent, FILE_EDIT_CONTENT) == 0) {
                                 printf("Congratulations! You've successfully completed the challenge.\n");
                                 printf("Flag: PV{7ha7s_8asY_1s17_7ru9}\n");
@@ -72,3 +82,4 @@ int main() {
 
     return 0;
 }
+
